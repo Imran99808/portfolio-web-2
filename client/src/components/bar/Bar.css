@@ -1,0 +1,44 @@
+.bContainer{
+    display: flex;
+     /* border:2px solid #9ae79a;  */
+    gap:4.5rem;
+    padding: 1.5rem;
+    background:#fff;
+     border-radius: .3rem; 
+    position: absolute; 
+    bottom: -4rem;
+    left: 0; 
+     right: 0; 
+     /* width: 50%; */
+     
+    /* text-align: center; */
+    
+    box-shadow: rgb(43 52 69 / 10%)0 4px 16px; 
+   
+}
+.bInfo{
+   /* border: 2px solid black;    */
+   display: flex;
+  
+
+   align-items: center;
+}
+.bInfo>.icon>i{
+    margin-right: 1rem;
+  /* background-color:rgba(19, 19, 233, 0.904)
+   ;  */
+   background-color: #9ae79a;
+    padding: .8rem .9rem;
+    color: #fff; 
+    box-shadow: rgb(43 52 69 / 10%)0 4px 16px;
+    border-radius: 100%;
+    font-size: 1.3em;
+     /* display: block;
+     text-align: center; */
+     
+
+
+}
+.bInfo>span{
+    font-weight: 700;
+}

@@ -1,0 +1,34 @@
+.banner{
+    /* height: 50vh; */
+    /* margin-bottom: 5rem; */
+    background: #3f413f;
+    position: relative;
+    /* margin-top: 10rem; */
+}
+
+.banner>.baContainer>.batitle{
+    width: 80%;
+    padding-top: 1rem;
+   padding-bottom: 5rem;
+    /* border: 2px solid red; */
+}
+.banner>.baContainer>.batitle>span{
+    font-size: 3.5rem;
+    color:#fff;
+    /* line-height: 6rem; */
+}
+
+.banner>.baContainer>a>.btn{
+    position:absolute;
+    /* background: #9ae79a; */
+    border: none;
+    /* color: #fff; */
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+font-weight: 500;
+    /* top:0; */
+    right: 7rem;
+    bottom: 2rem;
+   /* float: right; */
+   
+}

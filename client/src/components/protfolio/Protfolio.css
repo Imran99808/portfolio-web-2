@@ -1,0 +1,106 @@
+.protfolio{
+     /* border: 2px solid rebeccapurple;   */
+       /* height: 140vh;     */
+    /* margin-top: 5rem; */
+    /* background-color: #f7f7f7; */
+}
+.pContainer{
+    margin-top: 2rem;
+    height: 100%; 
+     /* border: 2px solid #9ae79a;  */
+     /* padding:3rem 0;  */
+    /* padding-bottom:rem; */
+  
+}
+.protfolio>.pContainer>.pHeader{
+    /* border:2px solid red; */
+    /* text-align: center; */
+     margin-bottom: 2rem;
+    /* height: 25%; */
+}
+
+
+.protfolio>.pContainer>.pHeader>.title{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: .7rem 0;
+    
+ 
+}
+.protfolio>.pContainer>.pHeader>.pNav{
+    display: flex;
+    justify-content: center;
+    margin:3rem 0 ;
+    gap: 3rem;
+}
+.protfolio>.pContainer>.items{
+     /* border: 2px solid black;   */
+      /* height: 450px;   */
+    /* display: grid;
+    
+    gap: 1rem;
+    grid-template-columns: auto auto auto; */
+   
+}
+.p-item{
+  
+     /* width: 100%;  */
+          /* height: 100%;      */
+       margin-left: 1rem;
+      
+       /* border: 2px solid green;    */
+      margin: 0 8px;
+      /* background: #a4e490; */
+      margin-bottom: 1rem;
+      /* display: grid; */
+      /* grid-template-columns:1fr 1fr ; */
+     
+    
+}
+.p-item>.p-cover{
+     height: 209px; 
+    box-shadow: rgb(43 52 69 / 10%)0 0 9px;
+     /* border: 2px solid red;  */
+   text-align: center;
+   margin: auto;
+    margin-bottom: .3rem;
+}
+.p-item>.p-cover>img{
+       width: 90%;  
+       /* border: 2px solid red;  */
+    height: 100%;
+    margin:auto;
+    text-align: center;
+   
+}
+.p-item>.info{
+    /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
+    /* text-align: center; */
+     padding: 0.7rem 0.9rem; 
+   padding-bottom:2rem ;
+  background-color: #fff;
+    box-shadow: rgb(43 52 69 / 10%)0 4px 9px;
+}
+.p-item>.info>span{
+    font-size: 1rem;
+    font-weight: 500;
+    display: block;
+    margin: .6rem;
+    text-align: center;
+  
+    
+
+}
+.p-item>.info>p{
+    /* font-size: .9rem; */
+    /* text-align: center; */
+   
+
+}
+ /* .protfolio>.pContainer>.items>:nth-child(1){ 
+    grid-row: 1/3;
+   
+} */ 
+

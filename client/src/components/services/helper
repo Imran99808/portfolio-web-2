@@ -1,0 +1,42 @@
+.service>.sContainer>.items>:nth-child(1){
+    /* grid-row:1/3; */
+    /* grid-column:2;  */
+  
+  
+    
+}
+.service>.sContainer>.items>:nth-child(3){
+    /* border: 2px solid black; */
+    /* margin: 12rem 0; */
+    /* margin-top: 14rem; */
+    /* right: 0; */
+    /* grid-column: 1; */
+    /* grid-row: 1/3; */
+    /* grid-area: c; */
+    /* align-items: center; display: block; */
+    /* grid-row:1; */
+    /* grid-column:2/4;  */
+
+    
+   
+    
+ 
+}
+.service>.sContainer>.items>:nth-child(4){
+     /* grid-column: 1;  
+    grid-row: 0/1;  */
+    /* bottom: 4rem; */
+    
+    /* border: 2px solid red; */
+    /* grid-column: 3; */
+  /* grid-row:2/4 ; */
+  
+   
+}
+.service>.sContainer>.items>:nth-child(5){
+    /* border: 2px solid red; */
+    /* grid-column:1/3; */
+  
+   
+ 
+}

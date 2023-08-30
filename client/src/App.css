@@ -1,0 +1,17 @@
+.container{
+  max-width: 80%;
+  margin: auto;
+
+  
+}
+
+.alive{
+ color: #9ae79a;
+}
+
+.inner-container{
+  padding:4rem 0 ;
+}
+.page{
+  margin-top: 75px;   
+}

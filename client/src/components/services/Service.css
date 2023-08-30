@@ -1,0 +1,80 @@
+.service{
+    margin-top: 6rem;
+    /* height: 900px;   */
+      /* background:#9ae79a;    */
+
+     
+}
+.service>.sContainer{
+    /* margin-top: 2rem; */
+     /* border: 2px solid red;  */
+      /*height: 100%; */
+    /* position: relative; */
+}
+.service>.sContainer>.head{
+    /* border-bottom: 4px solid #9ae79a ; */
+    width: 76%;
+    margin: auto;
+    padding-top: 1rem;
+}
+.service>.sContainer>.head>span{
+    /* color:rgba(19, 19, 233, 0.904) ;
+    color: #9ae79a; */
+    font-weight: 500;
+     font-size: 2rem; 
+    /* color: #fff; */
+    
+    text-align: center;
+    display: block;
+
+}
+.service>.sContainer>.items{
+    padding: 4rem 0;
+    /* display:flex; */
+    display: grid;
+      /* grid-template-columns: repeat(1fr,1fr);    */
+   
+       grid-template-columns: auto auto auto;  
+  
+     gap:1rem ; 
+     /* border: 2px solid red;  */
+}
+
+.service>.sContainer>.items>.item{
+   /* width:20%; */
+    background: #fff;
+    box-shadow: rgb(43 52 69 / 10%)0 4px 16px;
+    
+  
+}
+
+
+.service>.sContainer>.items>.item>i{
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 2.7rem;
+    margin-bottom: .7rem;
+}
+.service>.sContainer>.items>.item>span{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin:0 1rem;
+}
+.service>.sContainer>.items>.item>p{
+    /* font-size: .9rem; */
+    padding: 1.9rem 1rem;
+    text-align: center;
+   
+}
+.service>.sContainer>.items>:nth-child(2){
+    /* color:red; */
+    /* height: 340px;
+    background: #9ae79a;
+    grid-row:1/4 ;
+    grid-column: 2; */
+}
+
+

@@ -1,0 +1,88 @@
+.footer{
+    background:#fff;
+    height: 60vh;
+}
+.footer>.fcontainer{
+  display: flex;
+  margin-top: 4rem;
+
+  padding:1.5rem 0 ;
+  margin-left: 9rem;
+}
+.footer>.fcontainer>.fleft{
+width: 60%;
+display: grid;
+
+gap:3rem 0 ;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.footer>.fcontainer>.fleft>.c{
+    display: flex;
+    flex-direction: column;
+    gap:.8rem;
+}
+.footer>.fcontainer>.fleft>.c>span{
+    font-size: 1rem;
+    font-weight: 500;
+   
+}
+.footer>.fcontainer>.fleft>.c>li>a{
+  /* text-decoration: none; */
+   color: #000; 
+}
+.footer>.fcontainer>.fleft>.c>li{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.footer>.fcontainer>.fright{
+     /* border: 2px solid red;  */
+   /* position: absolute;
+   right: 0; */
+   width: 50%;
+}
+.footer>.fcontainer>.fright>.title{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin:0 6rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: start; 
+
+  align-items: start;
+  margin-bottom: 5rem;
+}
+.footer>.fcontainer>.fright>.title>span{
+  font-size: 4.4rem;
+  font-weight: 500;
+  /* display: block; */
+ 
+}
+.footer>.fcontainer>.fright>.input{
+      /* border: 2px solid red;  */
+      background: #9ae79a; 
+    width: 60%;
+    /* height: 10%; */
+    margin: auto;
+    /* display: grid;
+    grid-template-columns:1fr 1fr ; */
+position: relative;
+
+}
+.footer>.fcontainer>.fright>.input>input{
+  width: 85%;
+  border: none;
+  background: none;
+  height: 100%;
+   padding: 1rem 1rem; 
+}
+.footer>.fcontainer>.fright>.input>i{
+    /* border: 2px solid red; */
+    /* width: 10%; */
+ 
+     padding:.5rem; 
+    /* border-radius: 100%; */
+    line-height: 1rem;
+    position: absolute;
+    right: .8rem;top: .4rem;
+}
+

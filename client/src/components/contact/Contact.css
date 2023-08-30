@@ -1,0 +1,132 @@
+.contact>.cbanner{
+    /* border: 2px solid red; */
+ box-shadow: rgb(43 52 69 / 10%)0 12px 16px;  
+  /* height: 70vh;  */
+   
+   /* display: flex;   */
+  justify-content: start; 
+  /* align-items: center; */
+  
+
+}
+.contact>.cbanner>.ctitle{
+     /* border: 2px solid red;  */
+      padding:10rem 0; 
+       font-size: 4rem;
+       font-weight: 700;
+         padding-top: 10rem;
+}
+.contact>.cinfo>.map{
+  height: 400px;
+  margin-top: -20px;
+  
+ 
+}
+.contact>.cinfo>.map>iframe{
+    border: none;
+}
+.contact>.cinfo>.box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.contact>.cinfo>.box>.b-left{
+    
+    width: 30%;
+    margin-top: -128px;
+    background: #fff;
+  
+}
+.contact>.cinfo>.box>.b-left>.contact,
+.follow{
+    box-shadow: rgb(43 52 69 / 10%)0 12px 16px;  
+    /* border: 2px solid black; */
+    padding:3rem 0;
+   margin-bottom: 2rem;
+}
+.contact>.cinfo>.box>.b-left>.contact>.cbox{
+    box-shadow: rgb(43 52 69 / 10%)0 4px 16px;
+    width: 80%;
+    margin:   auto;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding:2rem 1rem;
+
+
+}
+.contact>.cinfo>.box>.b-left>.contact>:nth-child(2){
+    margin: 2rem auto;
+}
+.contact>.cinfo>.box>.b-left>.contact>.cbox>span{
+    
+    /* text-align: center; */
+}
+.contact>.cinfo>.box>.b-left>.contact>.cbox>:nth-child(1){
+    font-size: 1.3rem;
+}
+
+
+.contact>.cinfo>.box>.b-left>.follow>.ftitle{
+    text-align: center;
+    font-size: 2rem;
+    /* border: 2px solid red; */
+    margin-bottom: 2rem;
+    font-weight: 600;
+
+}
+
+.contact>.cinfo>.box>.b-left>.follow>.media{
+    text-align: center;
+
+
+}
+.contact>.cinfo>.box>.b-left>.follow>.media>a>i{
+    font-size: 1.3rem;
+    margin-left: 1.3rem;
+
+    color: #000;
+}
+
+
+.contact>.cinfo>.box>.b-right{
+    box-shadow: rgb(43 52 69 / 10%)0 4px 16px;
+    width: 60%;
+    padding:3rem 2rem ;
+    /* border: 2px solid green; */
+}
+.contact>.cinfo>.box>.b-right>.r-tag>span{
+    font-size: 1.3rem;
+    margin-right:1rem ;
+    font-weight: 100;
+}
+.contact>.cinfo>.box>.b-right>.r-heading{
+    font-size:36px;
+    margin:1rem 0 ;
+    font-weight: 600; 
+}
+
+#form{
+    /* border: 2px solid red; */
+}
+
+#form>.input,
+ .comment{
+    margin:1rem 0 ;
+    box-shadow: rgb(43 52 69 / 10%)0 4px 16px;
+   
+}
+#form>.input>input,
+.comment>textarea{
+    border: none; 
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+}
+#form>.submit>input{
+border: none;
+/* box-shadow: rgb(43 52 69 / 10%)0 4px 16px; */
+   font-size: 1.2rem;
+padding: 1rem 3rem;
+}

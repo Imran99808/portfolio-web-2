@@ -1,0 +1,14 @@
+{
+  "name": "email-sender",
+  "version": "0.0.1",
+  "description": "this simple api project for client email sending",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "imran",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.3"
+  }
+}
